@@ -7,6 +7,7 @@ import { Products } from './Pages/Products'
 import { SignUp } from './Pages/SignUp'
 import { SignIn } from './Pages/SignIn'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
   <Route path='signup' element={<SignUp/>}/>
   <Route path='signin' element={<SignIn/>}/>
 </Routes>
+<Footer/>
 </BrowserRouter>
   )
 }
